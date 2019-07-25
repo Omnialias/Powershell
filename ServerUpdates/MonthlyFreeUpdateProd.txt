@@ -1,0 +1,12 @@
+ADBackup16
+ADMGMT
+ADSync
+DHCP
+Kaspersky
+MDT
+Netwrix3
+Netwrix2
+TNACTest
+TNAppTest
+TNDBTest
+TDCDocs

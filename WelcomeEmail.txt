@@ -1,0 +1,262 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>Please send all requests (when possible) to helpdesk@donohoe</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{margin:0in;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:normal;
+	text-decoration:underline;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.tdc
+	{mso-style-name:tdc;
+	font-family:"Arial",sans-serif;
+	color:windowtext;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:.8in 1.25in .7in 1.25in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink="#954F72">
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>Welcome to the Donohoe Companies from the
+Information Technology (I.T.) Department.  </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'><span style='text-decoration:none'>&nbsp;</span></span></u></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>Please read the following Donohoe Companies
+computer usage policies and procedures to better serve you.   These policies
+are very important to our computer networks as well as The Donohoe
+Companies.    Please read them thoroughly and comply.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Please send all I.T. requests</span></u></b><u><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif'> <b>to Help Desk</b></span></u><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif'> e-mail account from
+the global address book in MS-Outlook.  By doing this it will eliminate the
+chance of your request going to someone who is not in the office.  <u>Help Desk
+</u>is forwarded to members of the I.T. department.  If your system is down or
+need immediate response, please call Jon Dobson (x4142), or Zoltan Korossy
+(x4257) for assistance.    </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Save all work to the network drives (see
+below)</span></u></b><b><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>.</span></b><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif'> These drives are
+backed up on a nightly basis.  If you save to your local computer, C drive, it
+is never backed up. If your PC crashes (C drive), you will lose all data saved
+on that PC.  Also, you cannot access files on your C drive thru Citrix (from
+home or remote offices).</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Do not store/use personal files on our
+company network drives.</span></u></b><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif'>  Network Drives/folders (G and I drives and E-mail server)
+should only contain work related materials.  Use the Email system for business
+related correspondences.   Do not use foul language or send abusive materials
+via the E-mail system.  </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Clean up sent and deleted e-mail items
+folder regularly</span></u></b><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>.  
+If you need e-mails saved, create a personal folder and move e-mails there for
+future references. <u>Do not use sent/deleted folders to archive e-mails.</u></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Do not open E-mails from an unknown
+source</span></u></b><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>.
+These e-mails may contain virus executable files that can infect your computer
+as well as the whole network.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<h1><strong><span style='font-family:"Arial",sans-serif'>Spam Filter. </span></strong><span
+style='text-decoration:none'>The spam filter will regularly email you a spam
+report. It will come from reports@intermedia.net and be called “Email
+Quarantine Report”.  Access the Email Quarantine Report to see all spam held
+from the prior day, and scroll down within the email to click the &quot;Manage
+quarantine email&quot; button at the bottom to access your up-to-the-minute
+spam list and to manage your spam filter settings.</span></h1>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Do not download programs/applications
+from the Internet</span></u></b><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>
+unless approved by the IT department and your division manager. - These
+programs may contain viruses that can infect not only your computer but also
+the network and can be illegal.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Do not install any unauthorized or
+illegal software</span></u></b><b><span style='font-size:11.0pt;font-family:
+"Arial",sans-serif'> </span></b><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>on
+your computer. Licensing is very important; it is illegal to have software that
+is not properly licensed<span style='color:black'>.  O</span></span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif;color:black'>nly Donohoe
+Company purchased software is to be used on Donohoe owned equipment.  </span><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif'>Contact the Help Desk
+if you need software installed.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Log off your PC when you leave for the
+day</span></u></b><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>. 
+T</span><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>here are
+less chances of abuse or sabotage of your files if you log off properly.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Do not store files in S: Drive (scans).</span></u></b><span
+style='font-size:11.0pt;font-family:"Arial",sans-serif'> If they’re to be kept,
+they need to be moved out to other network drives or folders. <u><span
+style='color:blue'>The scans folder is not backed up, and is subject to
+cleaning up where all PDFs located in them are deleted on weekends.</span></u></span></p>
+
+<span style='font-size:11.0pt;font-family:"Arial",sans-serif'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><u><span style='font-size:
+11.0pt;font-family:"Arial",sans-serif'>Know your network drives.</span></u></b></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>G Drive</span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> - Only you have access to it. Save <b>your</b>
+files on the G drive and not on C Drive (Local Computer).</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>H Drive</span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> – Public folders, you can only access folders
+on this drive if you have permissions to them.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>I Drive</span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> – Network users can access other users’ folders
+if they have permission to them.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>K Drive </span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>– Specialty Construction folders, you can only
+access folders on this drive if you have permissions to them.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>L Drive</span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> – Public Construction folders, you can only
+access folders on this drive if you have permissions to them.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>M Drive</span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> – Public Complete Building Services folders,
+you can only access folders on this drive if you have permissions to them.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>N Drive</span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> – Public Real Estate folders, you can only
+access folders on this drive if you have permissions to them.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>P Drive</span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> – Public Development folders, you can only
+access folders on this drive if you have permissions to them.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>Q Drive</span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> – Public Hospitality folders, you can only
+access folders on this drive if you have permissions to them.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>S Drive</span></b><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> (if available) – Scans from Ricoh/Sharp copiers.
+This is where you could access your scanned docs. Move them ASAP as the S Drive
+is not backed up. </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'> </span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>Thank you for your compliance with these
+procedures.</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:11.0pt;
+font-family:"Arial",sans-serif'>The Donohoe Companies, I.T. Department </span></p>
+
+</div>
+
+</body>
+
+</html>

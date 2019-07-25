@@ -1,0 +1,1 @@
+ipmo PSWindowsUpdate; Install-WindowsUpdate -serviceid "3da21691-e39d-4da6-8a4b-b43877bcb1b7" -AcceptAll -IgnoreReboot

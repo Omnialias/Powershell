@@ -1,0 +1,8 @@
+Confluence
+LogASA
+LogCore
+LogNetScaler
+PRTG16
+PRTGDHS16
+VeeamOne
+SANHQ

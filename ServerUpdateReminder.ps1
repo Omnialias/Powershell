@@ -1,0 +1,21 @@
+﻿$Prompt = Show-AnyBox -Buttons 'Cancel', 'Submit' -CancelButton 'Cancel' -DefaultButton 'Submit' -Prompt @(
+    ( New-AnyBoxPrompt -InputType Date -Name 'Argus' -Message 'Pick a Wednesday for Argus Updates' -ValidateNotEmpty )
+    ( New-AnyBoxPrompt -InputType Date -Name 'MRI' -Message 'Pick a Wednesday for MRI Updates' -ValidateNotEmpty )
+    ( New-AnyBoxPrompt -InputType Date -Name 'FX' -Message 'Pick a Thursday for FX Updates' -ValidateNotEmpty )
+    ( New-AnyBoxPrompt -InputType Date -Name 'Prolog' -Message 'Pick a Friday for Prolog Updates' -ValidateNotEmpty )
+)
+If ( $Prompt.Cancel -eq "True" ) { Break }
+$Argus = $Prompt.Argus
+$MRI = $Prompt.MRI
+$FX = $Prompt.FX
+$Prolog = $Prompt.Prolog
+Send-mailmessage -To "josephw@donohoe.com" -From "josephw@donohoe.com" -SmtpServer 'exrelay-nj1.serverdata.net' -Subject "Argus Server Update" -Body "Good morning, <br><br> This is a reminder that we would like to perform server maintenance on Wednesday, $Argus. Argus will be unavailable from 8 AM to 10 AM. Please let me know if there are any issues. <br><br>Thanks." -BodyAsHtml
+Send-mailmessage -To "josephw@donohoe.com" -From "josephw@donohoe.com" -SmtpServer 'exrelay-nj1.serverdata.net' -Subject "MRI Server Update" -Body "Good morning, <br><br> This is a reminder that we would like to perform server maintenance on Wednesday, $MRI. MRI will be unavailable from 4 PM to 6 PM. Please let me know if there are any issues. <br><br>Thanks." -BodyAsHtml
+Send-mailmessage -To "josephw@donohoe.com" -From "josephw@donohoe.com" -SmtpServer 'exrelay-nj1.serverdata.net' -Subject "FX Server Update" -Body "Good morning, <br><br> This is a reminder that we would like to perform server maintenance on Thursday, $FX. FX will be unavailable from 4:30 PM to 6:30 PM. Please let me know if there are any issues. <br><br>Thanks." -BodyAsHtml
+Send-mailmessage -To "josephw@donohoe.com" -From "josephw@donohoe.com" -SmtpServer 'exrelay-nj1.serverdata.net' -Subject "Prolog/Converge Server Update" -Body "Good morning, <br><br> This is a reminder that we would like to perform server maintenance on Friday, $Prolog. Prolog/Converge will be unavailable from 3:30 PM to 5:30 PM. Please let me know if there are any issues. <br><br>Thanks." -BodyAsHtml
+$Review = Show-Anybox -Title "Review E-mails" -Message "Review e-mails, then choose to continue or abort." -Buttons 'Continue','Abort'
+If ( $Review.Abort -eq "True" ) { Break }
+Send-mailmessage -To "DonK@donohoe.com" -From "josephw@donohoe.com" -Cc "Zoltank@donohoe.com" -SmtpServer 'exrelay-nj1.serverdata.net' -Subject "Argus Server Update" -Body "Good morning, <br><br> This is a reminder that we would like to perform server maintenance on Wednesday, $Argus. Argus will be unavailable from 8 AM to 10 AM. Please let me know if there are any issues. <br><br>Thanks." -BodyAsHtml
+Send-mailmessage -To "PamM@donohoe.com" -From "josephw@donohoe.com" -Cc "Zoltank@donohoe.com" -SmtpServer 'exrelay-nj1.serverdata.net' -Subject "MRI Server Update" -Body "Good morning, <br><br> This is a reminder that we would like to perform server maintenance on Wednesday, $MRI. MRI will be unavailable from 4 PM to 6 PM. Please let me know if there are any issues. <br><br>Thanks." -BodyAsHtml
+Send-mailmessage -To "AmyT@donohoe.com" -From "josephw@donohoe.com" -Cc "Zoltank@donohoe.com" -SmtpServer 'exrelay-nj1.serverdata.net' -Subject "FX Server Update" -Body "Good morning, <br><br> This is a reminder that we would like to perform server maintenance on Thursday, $FX. FX will be unavailable from 4:30 PM to 6:30 PM. Please let me know if there are any issues. <br><br>Thanks." -BodyAsHtml
+Send-mailmessage -To "ArnieH@donohoe.com" -From "josephw@donohoe.com" -Cc "Zoltank@donohoe.com" -SmtpServer 'exrelay-nj1.serverdata.net' -Subject "Prolog/Converge Server Update" -Body "Good morning, <br><br> This is a reminder that we would like to perform server maintenance on Friday, $Prolog. Prolog/Converge will be unavailable from 3:30 PM to 5:30 PM. Please let me know if there are any issues. <br><br>Thanks." -BodyAsHtml
