@@ -1,5 +1,5 @@
 ﻿$Butler = Show-AnyBox -Message 'Will we be granting or revoking permissions today, sir?' -Buttons 'Grant','Revoke'
-$InterCheck = Get-User josephw@donohoe.com -ErrorVariable "ErrorThrowAway"
+$InterCheck = Try {Get-User josephw@donohoe.com } Catch { write-host "" }
 If ( $Intercheck -eq $null ) { Show-Anybox -Message 'Very good, sir. Now, if you will please log in?' -Buttons 'Ok'
 C:\Scripts\Hosting.PowerShell.Custom.ps1 SEH }
 
@@ -29,7 +29,7 @@ If ( $Butler.Revoke -eq 'True' ) {
     While ( $Identity -eq $null -or $Recipient -eq $null ) {
         $Prompt = Show-AnyBox -Buttons 'Submit' -Prompts @(
             ( New-AnyBoxPrompt -InputType Text -Name 'Identity' -Message 'And whose mailbox will we be revoking rights on? (Please include the domain)' -ValidateNotEmpty -ValidateScript { $_ -like '*@donohoe.com' } )
-            ( New-AnyBoxPrompt -InputType Text -Name 'Recipient' -Message 'And to which account will have its rights revoked? (Please include the domain)' -ValidateNotEmpty -ValidateScript { $_ -like '*@donohoe.com' } )
+            ( New-AnyBoxPrompt -InputType Text -Name 'Recipient' -Message 'And which account will have its rights revoked? (Please include the domain)' -ValidateNotEmpty -ValidateScript { $_ -like '*@donohoe.com' } )
         )
         $Identity = Get-ExchangeMailbox $Prompt.Identity
         $Recipient = Get-ExchangeMailbox $Prompt.Recipient
