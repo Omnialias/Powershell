@@ -1,1 +1,0 @@
-robocopy "\\archive\archive\DHS\CMCC" "E:\Archive\DHS\CMCC" /e /w:1 /r:1 /mir /Log:"C:\Scripts\ArchiveJob\RoboArchive110118.txt"
