@@ -21,5 +21,5 @@ $GDrivePath = "\\NAS1\"+$user.Substring(3)
 
 # Map the drives
 $net = New-Object -com WScript.Network
-$net.mapnetworkdrive($Gdrive, $GDrivepath, $true, $user, $cred.GetNetworkCredential().Password)
-$net.mapnetworkdrive($Ldrive, $LDrivepath, $true, $user, $cred.GetNetworkCredential().Password)
+$net.mapnetworkdrive($Gdrive, $GDrivepath, $false, $user, $cred.GetNetworkCredential().Password)
+$net.mapnetworkdrive($Ldrive, $LDrivepath, $false, $user, $cred.GetNetworkCredential().Password)
