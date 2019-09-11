@@ -94,8 +94,7 @@ $ErrorActionPreference = "Stop"
                 New-Item -Path $Using:CreateWord -ItemType Directory
                 New-Item -Path $Using:CreateExcel -ItemType Directory
                 New-Item -Path $Using:CreateCA400 -ItemType Directory
-                                # Add the next line when NAS1 gets upgraded to new powershell
-                # New-SMBShare -Name $Using:Prompts.Username -Path $Using:CreateFolder -ContinuouslyAvailable -FullAccess Everyone 
+                New-SMBShare -Name $Using:Prompts.Username -Path $Using:CreateFolder -FullAccess Everyone 
             }
         }
         else {
@@ -107,7 +106,7 @@ $ErrorActionPreference = "Stop"
                 # New-SMBShare -Name $Using:Prompts.Username -Path $Using:CreateFolder -ContinuouslyAvailable -FullAccess Everyone 
             }
         }
-    Show-AnyBox -Icon 'Question' -Title 'Ready?' -Message 'Go to NAS and change share settings, then click continue' -Buttons 'Continue' -MinWidth 300
+    If ($Prompts.Department -ne 'CBS') { Show-AnyBox -Icon 'Question' -Title 'Ready?' -Message 'Go to NAS and change share settings, then click continue' -Buttons 'Continue' -MinWidth 300 }
 
 #
 # If copying from another user, -Instance, otherwise new user account
@@ -140,6 +139,18 @@ $ErrorActionPreference = "Stop"
                 -Enabled 1 `
                 -Verbose 
             }
+
+# If CBS, set ACL.
+
+If ($Prompts.Department -eq 'CBS') { 
+    Invoke-Command -ComputerName NAS4 -ScriptBlock {
+        Disable-NTFSAccessInheritance -Path $Using:CreateFolder
+        Add-NTFSAccess -Path $Using:CreateFolder -Account "Administrators" -AccessRights FullControl -AppliesTo ThisFolderSubfoldersAndFiles
+        Add-NTFSAccess -Path $Using:CreateFolder -Account "Domain Admins" -AccessRights FullControl -AppliesTo ThisFolderSubfoldersAndFiles
+        Remove-NTFSAccess -Path $Using:CreateFolder -Account "Domain Users" -AccessRights ReadAndExecute
+        Add-NTFSAccess -Path $Using:CreateFolder -Account $Using:Prompts.Username -AccessRights FullControl -AppliesTo ThisFolderSubfoldersAndFiles
+    }
+}
 
 #
 # Set Home Folder
