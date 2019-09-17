@@ -1,4 +1,43 @@
-﻿#
+﻿<#PSScriptInfo
+
+.VERSION 1.0
+
+.GUID cd32a266-2a48-4059-b67a-ee35900764d5
+
+.AUTHOR josephw@donohoe.com
+
+.COMPANYNAME Donohoe
+
+.COPYRIGHT
+
+.TAGS
+
+.LICENSEURI
+
+.PROJECTURI
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES
+
+.REQUIREDSCRIPTS
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+
+.PRIVATEDATA
+
+#>
+
+<#
+
+.DESCRIPTION
+New User Script
+
+#>
+
+#
 # Check script pre-req
 #
 
@@ -210,7 +249,7 @@ If ($Prompts.Department -eq 'CBS') {
 # Start Intermedia Shell?
 #
 
-    .\Hosting.PowerShell.Custom.ps1 SEH
+    C:\Scripts\Active\NewUserScript\Hosting.PowerShell.Custom.ps1 SEH
 
     New-User -DisplayName $Name -UserPrincipalName $EmailUPN -Password $Prompts.Password
     Write-Host "
