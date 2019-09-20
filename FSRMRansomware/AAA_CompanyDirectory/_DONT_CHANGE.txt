@@ -1,0 +1,15 @@
+What is this?
+
+This file has been placed here by IT to allow us to monitor for ransomware attacks. 
+
+What is ransomware?
+
+Ransomware attacks are a type of virus that finds every file you can open and encrypts them. They are called ransomware because there is usually a message accompanying the virus that explains how to obtain the key from the attackers by paying a ransom.
+
+How does this file prevent ransomware attacks? 
+
+We are monitoring this file and similar files elsewhere to see if they are changed. Any changes to these files will indicate an attack and notify IT. The IT department makes backups of files constantly, and being notified of ransomware quickly allows us to a) find and shut down the user account that is being used to perform the attack and b) restore the encrypted files from a backup, allowing us to bypass the need to pay any kind of ransom. 
+
+How can I help? 
+
+You’re already helping by virtue of reading this. Always report anything suspicious to IT by sending an e-mail to helpdesk@donohoe.com and we will investigate. 

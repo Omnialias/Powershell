@@ -1,43 +1,4 @@
-﻿<#PSScriptInfo
-
-.VERSION 1.0
-
-.GUID cd32a266-2a48-4059-b67a-ee35900764d5
-
-.AUTHOR josephw@donohoe.com
-
-.COMPANYNAME Donohoe
-
-.COPYRIGHT
-
-.TAGS
-
-.LICENSEURI
-
-.PROJECTURI
-
-.ICONURI
-
-.EXTERNALMODULEDEPENDENCIES
-
-.REQUIREDSCRIPTS
-
-.EXTERNALSCRIPTDEPENDENCIES
-
-.RELEASENOTES
-
-.PRIVATEDATA
-
-#>
-
-<#
-
-.DESCRIPTION
-New User Script
-
-#>
-
-#
+﻿#
 # Check script pre-req
 #
 
