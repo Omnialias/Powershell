@@ -129,7 +129,7 @@ Invoke-Command -ComputerName NAS4 -ScriptBlock {
         Add-NTFSAccess -Path $Using:CreateFolder -Account "Domain Admins" -AccessRights FullControl -AppliesTo ThisFolderSubfoldersAndFiles
         Remove-NTFSAccess -Path $Using:CreateFolder -Account "Domain Users" -AccessRights ReadAndExecute
         Add-NTFSAccess -Path $Using:CreateFolder -Account $Using:Prompts.Username -AccessRights FullControl -AppliesTo ThisFolderSubfoldersAndFiles
-
+}
 #
 # Set Remote Desktop Settings
 #
@@ -161,48 +161,3 @@ Invoke-Command -ComputerName TDCDocs -ScriptBlock { New-Item -Path $Using:ScanFo
     New-SMBShare -Name $Using:Prompts.Username -Path $Using:ScanFolder -FullAccess "Everyone"
     Add-NTFSAccess -Path $Using:ScanFolder -Account $Using:Prompts.Username -AccessRights FullControl -AppliesTo ThisFolderSubfoldersAndFiles
 }
-
-#
-# Moving on to Intermedia
-# 
-
-$HostpilotPrompt = Show-AnyBox -Message 'Moving on to Intermdia.' -Buttons 'Ok'
-
-#
-# Start Intermedia Shell?
-#
-
-.\Hosting.PowerShell.Custom.ps1 SEH
-
-Write-Host "Syncing AD user with Intermedia email." 
-
-$ADSyncObject = Get-ADSyncObjectUnlinked -Identity $Email | Select-Object -ExpandProperty ObjectID
-$CPUser = Get-User -Identity $EmailUPN | Select -ExpandProperty DistinguishedName
-Set-AdSyncObjectLinked -Identity $ADSyncObject -TargetIdentity $CPUser
-
-#
-# Check Everything
-#
-
-$ADCheck = Get-ADUser -Identity $Prompts.UserName -Properties "mail","HomeDirectory","HomeDrive" | Select Name,SamAccountName,Mail,HomeDirectory,HomeDrive
-$HostCheck = Get-User -Identity $EmailUPN | Select Name,DisplayName,UserPrincipalName,Enabled,RecipientType
-Show-AnyBox -Title 'Double-Check' -Message 'Double check items below',' ', `
-            "AD Items", `
-            $ADCheck.Name, `
-            $ADCheck.SamAccountName, `
-            $ADCheck.Mail, `
-            $ADCheck.HomeDirectory, `
-            $ADCheck.HomeDrive, `
-            ' ', `
-            'Intermedia Items', `
-            $HostCheck.Name, `
-            $HostCheck.DisplayName, `
-            $HostCheck.UserPrincipalName, `
-            $HostCheck.Enabled, `
-            $HostCheck.RecipientType `
-        -Buttons 'Looks Good'
-#
-# Reminder to add user to KnowBe4
-#
-
-Show-AnyBox -Icon 'Question' -Title 'KnowBe4' -Message "Add User $Name ($EmailUPN) to KnowBe4." -Buttons 'Continue' -MinWidth 300

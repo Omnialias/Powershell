@@ -1,0 +1,1 @@
+﻿param( [string]$username = “” ) Get-SmbShare -Special $false | ForEach-Object { Block-SmbShareAccess -Name $_.Name -AccountName “$username” -Force }
