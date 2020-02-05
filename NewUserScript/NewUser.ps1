@@ -259,6 +259,14 @@ If ( $Prompts.Copy -eq $True ) {
     Send-MailMessage -To $EmailUPN -From "Helpdesk@Donohoe.com" -SmtpServer 'exrelay-nj1.serverdata.net' -Subject "Welcome!" -Body $EmailBody -BodyAsHTML
 
 #
+# Enable SecuriSync
+#
+
+$SecuriSyncPrompt = Show-AnyBox -Message 'Will this user use SecuriSync' -Buttons 'Yes','No'
+if ( $SecuriSyncPrompt.Yes -eq $True ) 
+   { Enable-FileUser -Identity $CPUser }
+
+#
 # Check Everything
 #
 
